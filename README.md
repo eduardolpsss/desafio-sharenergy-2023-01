@@ -1,3 +1,30 @@
+# Breve instrução de instalação e de execução da aplicação criada
+
+## Front-end
+
+O front-end da aplicação foi desenvolvido com o Vite, para inicializar o servidor basta, na pasta front-end, executar os seguintes comandos:
+
+`npm` ou `yarn` para baixar as dependências;
+
+`npm start` ou `yarn start` para startar a aplicação;
+
+## Back-end
+
+O back-end da aplicação foi desenvovido com Node.js e TypeScript em conjunto com o Express, para inicializá-lo basta executar os seguintes comandos:
+
+`npm` ou `yarn` para baixar as dependências;
+
+`npm start` ou `yarn start` para startar a aplicação;
+
+## Banco de dados
+
+O projeto foi desenvolvido utilizando o MongoDB, o banco foi criado no Atlas com views no MongoDB Compass, para inicializá-lo, é necessário colar a string de conexão com o MongoDB no mongoose.connect localizado na página server.ts do back-end.
+
+
+
+
+
+
 # Desafio para o processo seletivo SHARENERGY 2023/01
 
 Repositório destinado aos interessados em participar do processo seletivo da SHARENERGY 2023/01. As vagas são voltadas para desenvolvimento de aplicações Web e Mobile.
