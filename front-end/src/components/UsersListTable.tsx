@@ -75,7 +75,7 @@ function UsersListTable() {
                 }}  
                 >
 
-                <p>Listagem de usuários gerada a partir da API <a href="https://randomuser.me/">Random User Generator</a> a tabela possui busca, filtro e paginação.</p>
+                <p>Listagem de usuários gerada a partir da API <a href="https://randomuser.me/" target='_blank'>Random User Generator</a> a tabela possui busca, filtro e paginação.</p>
 
                 {/* Render da tabela com loading, searchbar e pagination */}
                 {loading ? (

@@ -120,13 +120,6 @@ function ClientsList() {
         
     }
 
-    // Função para editar um cliente
-    // const handleEdit = (event: React.MouseEvent<HTMLButtonElement>) => {
-    //     alert('Você pode editar os dados utilizando o formulário de cadastro.')
-    //     const { value } = event.currentTarget;
-    //     setEditing(true);
-    // }
-
     const handleEdit = async (event: React.MouseEvent<HTMLButtonElement>) => {
         alert('Você pode editar os dados utilizando o formulário de cadastro.')
         const { value } = event.currentTarget;

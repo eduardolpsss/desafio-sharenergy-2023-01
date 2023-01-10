@@ -41,7 +41,7 @@ const LoginForm = () => {
                         <div className="card-body">
                             <form onSubmit={handleSubmit}>
                                 <div className="form-group">
-                                    <small id="emailHelp" className="form-text text-muted">Você pode fazer login utilizando o username e a senha especificadas no README.md da aplicação ou em meu <a href='https://github.com/eduardolpsss/desafio-sharenergy-2023-01'>repositório GitHub</a>.</small>
+                                    <small id="emailHelp" className="form-text text-muted">Você pode fazer login utilizando o username e a senha especificadas no README.md da aplicação ou em meu <a href='https://github.com/eduardolpsss/desafio-sharenergy-2023-01' target='_blank'>GitHub</a>.</small>
                                     <br/>
                                     <label htmlFor="exampleInputEmail1">Username</label>
                                     <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter username" onChange={e => setUsername(e.target.value)} value={username} />

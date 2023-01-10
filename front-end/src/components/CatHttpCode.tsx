@@ -19,7 +19,7 @@ function CatHttpCode() {
             }}  
             >
 
-                <p>Select de HTTP status code a partir da API <a href="https://http.cat/">HTTP Cats</a>.</p>
+                <p>Select de HTTP status code a partir da API <a href="https://http.cat/" target='_blank'>HTTP Cats</a>.</p>
 
                 <div className="d-flex justify-content-center" style={{ marginTop: 50}}>
                     <select className="form-control d-flex justify-content-center" style={{width: '20rem'}} onChange={handleCatStatusCode}>

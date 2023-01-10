@@ -30,7 +30,7 @@ function RandomDog() {
             }}  
             >
 
-                <p>Gerador de imagens caninas a partir da API <a href="https://random.dog/">Random Dog</a>.</p>
+                <p>Gerador de imagens caninas a partir da API <a href="https://random.dog/" target='_blank'>Random Dog</a>.</p>
 
                 <div className="d-flex justify-content-center" style={{ marginTop: 50}}>
                     <button className="btn btn-primary" onClick={handleDogPicture}>Gerar imagem</button>

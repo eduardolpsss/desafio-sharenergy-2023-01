@@ -8,7 +8,7 @@ const clientController = {
         if (client) {
             return res.json(client);
         } else {
-            return res.json({ error: '[API]: Error loading clients.' });
+            return res.json({ error: '[API]: Erro carregando clientes.' });
         }
     },
 
@@ -19,7 +19,7 @@ const clientController = {
         if (client) {
             return res.json(client);
         } else {
-            return res.json({ error: '[API] Error loading client.' });
+            return res.json({ error: '[API] Erro carregando cliente.' });
         }
     },
 
@@ -31,14 +31,14 @@ const clientController = {
             return (
                 res.status(401).json({
                     success: false,
-                    message: '[API]: Error creating client.'
+                    message: '[API]: Erro criando cliente.'
                 })
             )
         } else {
             return (
                 res.status(200).json({
                     success: true,
-                    message: '[API]: Client successfully created.'
+                    message: '[API]: Cliente criado com sucesso.'
                 })
             )
         }
@@ -49,9 +49,9 @@ const clientController = {
         let client = await clientModel.findByIdAndUpdate(id, req.body, { new: true });
 
         if (client) {
-            return res.json({ message: '[API]: Client successfully updated.' });
+            return res.json({ message: '[API]: Cliente atualizado com sucesso.' });
         } else {
-            return res.json({ error: '[API]: Error updating client.' });
+            return res.json({ error: '[API]: Erro atualizando cliente.' });
         }
     },
 
@@ -60,9 +60,9 @@ const clientController = {
         let client = await clientModel.findByIdAndDelete(id);
 
         if (client) {
-            return res.json({ message: '[API]: Client successfully deleted.' });
+            return res.json({ message: '[API]: Cliente deletado com sucesso.' });
         } else {
-            return res.json({ error: '[API]: Error deleting client.' });
+            return res.json({ error: '[API]: Erro deletando cliente.' });
         }
     }
 }
