@@ -1,3 +1,8 @@
+Link para o vídeo do projeto no Youtube: https://www.youtube.com/watch?v=Fk_Lk9n70nE
+
+<br><br><br>
+<hr>
+
 # Breve instrução de instalação e de execução da aplicação criada
 
 ## Front-end
@@ -19,11 +24,8 @@ O back-end da aplicação foi desenvovido com Node.js e TypeScript em conjunto c
 ## Banco de dados
 
 O projeto foi desenvolvido utilizando o MongoDB, o banco foi criado no Atlas com views no MongoDB Compass, para inicializá-lo, é necessário colar a string de conexão com o MongoDB no mongoose.connect localizado na página server.ts do back-end.
-
-
-
-
-
+<br><br><br>
+<hr>
 
 # Desafio para o processo seletivo SHARENERGY 2023/01
 
